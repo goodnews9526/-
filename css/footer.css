@@ -1,0 +1,43 @@
+.footer {
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer ul {
+  width: 80%;
+  margin: 3rem auto;
+  /* 조정 */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer ul li {
+  margin: 5px 1px;
+  /* 올라와서 겹치는 마진변경 */
+  margin-top: 1rem;
+  text-transform: capitalize;
+  /* 첫글자 대문자로 */
+  font-weight: 300;
+  color:white;
+  display: inline;
+  /* 세로로 배치 */
+}
+
+.footer ul li a {
+  color: whitesmoke;
+  font-size: 1.2rem;
+}
+
+.tds-footer-li {
+  text-decoration: underline;
+  /* 밑줄추가 */
+}
+
+.tds-footer-div {
+  margin-top: 2rem;
+  line-height: 20px;
+  /* 윗줄과 아랫줄 띄움 */
+}
